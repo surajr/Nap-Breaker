@@ -30,7 +30,7 @@ const nav_routes = [
                     {title: 'BusDetails', index: 2},
                     ];
 
-export default class busnapper extends Component {
+export default class napBreaker extends Component {
 
   constructor(props) {
     super(props);
@@ -372,7 +372,7 @@ const styles = StyleSheet.create({
  }
 });
 
-AppRegistry.registerComponent('busnapper', () => busnapper);
+AppRegistry.registerComponent('napBreaker', () => napBreaker);
 
 function getDistanceKmBetween(coord1, coord2) {
   var R = 6371; // Radius of the earth in km
